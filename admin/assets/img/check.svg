@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.195 17.195">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: transparent;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="circle-check" transform="translate(514 -74)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" class="cls-1" cx="8.597" cy="8.597" r="8.597" transform="translate(-514 74)"/>
+    <path id="Path_9" data-name="Path 9" class="cls-2" d="M0,3.224l3.119,2.3L6.289,0" transform="translate(-508.099 78.913) rotate(9)"/>
+  </g>
+</svg>
