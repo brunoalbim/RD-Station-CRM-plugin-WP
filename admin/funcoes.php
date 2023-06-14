@@ -2,7 +2,7 @@
 error_reporting(0); ini_set("display_errors", 0);
 
 function rdcrmplugin_add_settings_page() {
-    add_options_page( 'RD Station CRM Agência plugin', 'RD Station CRM Agência plugin', 'manage_options', 'rd-station-crm-plugin-wp', 'rdcrmplugin_render_plugin_settings_page' );
+    add_options_page( 'RD Station CRM', 'RD Station CRM', 'manage_options', 'rd-station-crm-plugin-wp', 'rdcrmplugin_render_plugin_settings_page' );
 }
 add_action( 'admin_menu', 'rdcrmplugin_add_settings_page' );
 
