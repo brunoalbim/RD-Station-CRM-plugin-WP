@@ -1,11 +1,11 @@
 <?php
 /*
-  Plugin Name: RD Station CRM Agência Onzii
+  Plugin Name: RD Station CRM
   Plugin URI: #
 	description: Plugin de integração com a plataforam RD STATION CRM.
   Version: 1.0.0
-  Author: Onzii
-  Author URI: #
+  Author: Bruno albim
+  Author URI: bruno.art.br
   ---------------------------------------------------------------------------
 */
 
