@@ -1,6 +1,6 @@
 <div class="box-class-grid transparent">
   <h1><?= rdcrmplugin_retornarInformacoesPlugin("Name") ?></h1>
-  <strong>Versão instalada: v<?= rdcrmplugin_retornarInformacoesPlugin('Version') ?> <img src="<?= rdcrmplugin_dir_plugin() ?>/assets/img/circle-check.svg" style="width: 14px;  margin-bottom: -3px;margin-right: 5px;"></strong> <br>
+  <strong>Versão instalada: <?= rdcrmplugin_retornarInformacoesPlugin('Version') ?> <img src="<?= rdcrmplugin_dir_plugin() ?>/assets/img/circle-check.svg" style="width: 14px;  margin-bottom: -3px;margin-right: 5px;"></strong> <br>
 </div>
 
 <div class="box-class-grid">
@@ -51,24 +51,6 @@ display: none !important;
   <p>7 - No campo "Webhook URL", coloque esta URL: <code><?= site_url('wp-json/rdcrmplugin/v1/init') ?></code> </p>
   <p>8 - Clique em salvar </p>
 </div>
-
-
-<div class="box-class-grid">
-  <h3>Shortcodes</h3>
-
-  <h4>Retornar opções (WP ADMIN)</h4>
-  <p>Use os shortcodes abaixo quando precisar retornar as informações dos campos <strong>dentro do painel wp admin</strong> do wordpress. Exemplos abaixo: </p>
-  <p> Shortcode: <strong>[rdcrmplugin_shortcode_echo campo="campo_exemplo"]</strong>: Retorna o valor do campo "campo_exemplo". </p>
-</div>
-
-
-<div class="box-class-grid">
-  <h3>Suporte</h3>
-  <p>Caso precise de ajuda com a integração ou a configuração do seu checkout ou produtos, entre em contato com nossa equipe de suporte, ficaremos felizes em lhe ajudar.</p>
-  <p> <a href="https://plugin.com.br/" target="_blank" class="button button-primary">Falar com o suporte</a> </p>
-</div>
-
-
 
 
 
