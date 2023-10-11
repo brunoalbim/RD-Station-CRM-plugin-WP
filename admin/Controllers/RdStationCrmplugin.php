@@ -8,7 +8,8 @@ class RdStationCrmplugin {
 
     public function __construct() {
         $this->options = get_option('rdcrmplugin_plugin_options');
-        $this->url_api = "https://plugcrm.net/api/v1";
+        //$this->url_api = "https://plugcrm.net/api/v1";
+        $this->url_api = "https://crm.rdstation.com/api/v1";
     }
 
     public function authorization_status_code() {
